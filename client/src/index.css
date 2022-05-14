@@ -1,0 +1,102 @@
+.app{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form{
+  /* background-color: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19); */
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 10px;
+}
+
+.input{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  height: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 50px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  /* moz-transition: all .4s ease-in-out; */
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.text{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top:-5px
+}
+
+.root{
+  background-color: #282c34;
+}
+
+.box{
+  background-color:dodgerblue;
+  margin: 20px 300px 0px 300px;
+  border-radius: 10px;
+  width: 70%;
+  height: 400px;
+}
+.feild{
+  padding: 20px 30px;
+}
+
+.input-feild{
+  width:60%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn{
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 50px;
+  text-align:center;
+  border: none;
+  background-color:gold;
+  background-size: 300% 100%;
+  border-radius: 50%;
+}
+
+.screenData{
+  background-color:rgb(6, 126, 4);
+  color:#282c34;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+}
